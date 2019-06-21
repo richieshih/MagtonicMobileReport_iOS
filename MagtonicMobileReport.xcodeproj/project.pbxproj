@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F44FE522BC87AB00617579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F44FE422BC87AB00617579 /* AppDelegate.swift */; };
+		47F44FE722BC87AB00617579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F44FE622BC87AB00617579 /* ViewController.swift */; };
+		47F44FEA22BC87AB00617579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F44FE822BC87AB00617579 /* Main.storyboard */; };
+		47F44FEC22BC87AE00617579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F44FEB22BC87AE00617579 /* Assets.xcassets */; };
+		47F44FEF22BC87AE00617579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F44FED22BC87AE00617579 /* LaunchScreen.storyboard */; };
+		47F44FFA22BC87AE00617579 /* MagtonicMobileReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F44FF922BC87AE00617579 /* MagtonicMobileReportTests.swift */; };
+		47F4500522BC87AE00617579 /* MagtonicMobileReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F4500422BC87AE00617579 /* MagtonicMobileReportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47F44FF622BC87AE00617579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F44FD922BC87AB00617579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F44FE022BC87AB00617579;
+			remoteInfo = MagtonicMobileReport;
+		};
+		47F4500122BC87AE00617579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F44FD922BC87AB00617579 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F44FE022BC87AB00617579;
+			remoteInfo = MagtonicMobileReport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47F44FE122BC87AB00617579 /* MagtonicMobileReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagtonicMobileReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F44FE422BC87AB00617579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47F44FE622BC87AB00617579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47F44FE922BC87AB00617579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47F44FEB22BC87AE00617579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47F44FEE22BC87AE00617579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47F44FF022BC87AE00617579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F44FF522BC87AE00617579 /* MagtonicMobileReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagtonicMobileReportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F44FF922BC87AE00617579 /* MagtonicMobileReportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagtonicMobileReportTests.swift; sourceTree = "<group>"; };
+		47F44FFB22BC87AE00617579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F4500022BC87AE00617579 /* MagtonicMobileReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagtonicMobileReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F4500422BC87AE00617579 /* MagtonicMobileReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagtonicMobileReportUITests.swift; sourceTree = "<group>"; };
+		47F4500622BC87AE00617579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F44FDE22BC87AB00617579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F44FF222BC87AE00617579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F44FFD22BC87AE00617579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47F44FD822BC87AB00617579 = {
+			isa = PBXGroup;
+			children = (
+				47F44FE322BC87AB00617579 /* MagtonicMobileReport */,
+				47F44FF822BC87AE00617579 /* MagtonicMobileReportTests */,
+				47F4500322BC87AE00617579 /* MagtonicMobileReportUITests */,
+				47F44FE222BC87AB00617579 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F44FE222BC87AB00617579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F44FE122BC87AB00617579 /* MagtonicMobileReport.app */,
+				47F44FF522BC87AE00617579 /* MagtonicMobileReportTests.xctest */,
+				47F4500022BC87AE00617579 /* MagtonicMobileReportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F44FE322BC87AB00617579 /* MagtonicMobileReport */ = {
+			isa = PBXGroup;
+			children = (
+				47F44FE422BC87AB00617579 /* AppDelegate.swift */,
+				47F44FE622BC87AB00617579 /* ViewController.swift */,
+				47F44FE822BC87AB00617579 /* Main.storyboard */,
+				47F44FEB22BC87AE00617579 /* Assets.xcassets */,
+				47F44FED22BC87AE00617579 /* LaunchScreen.storyboard */,
+				47F44FF022BC87AE00617579 /* Info.plist */,
+			);
+			path = MagtonicMobileReport;
+			sourceTree = "<group>";
+		};
+		47F44FF822BC87AE00617579 /* MagtonicMobileReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				47F44FF922BC87AE00617579 /* MagtonicMobileReportTests.swift */,
+				47F44FFB22BC87AE00617579 /* Info.plist */,
+			);
+			path = MagtonicMobileReportTests;
+			sourceTree = "<group>";
+		};
+		47F4500322BC87AE00617579 /* MagtonicMobileReportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47F4500422BC87AE00617579 /* MagtonicMobileReportUITests.swift */,
+				47F4500622BC87AE00617579 /* Info.plist */,
+			);
+			path = MagtonicMobileReportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F44FE022BC87AB00617579 /* MagtonicMobileReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F4500922BC87AE00617579 /* Build configuration list for PBXNativeTarget "MagtonicMobileReport" */;
+			buildPhases = (
+				47F44FDD22BC87AB00617579 /* Sources */,
+				47F44FDE22BC87AB00617579 /* Frameworks */,
+				47F44FDF22BC87AB00617579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagtonicMobileReport;
+			productName = MagtonicMobileReport;
+			productReference = 47F44FE122BC87AB00617579 /* MagtonicMobileReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F44FF422BC87AE00617579 /* MagtonicMobileReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F4500C22BC87AE00617579 /* Build configuration list for PBXNativeTarget "MagtonicMobileReportTests" */;
+			buildPhases = (
+				47F44FF122BC87AE00617579 /* Sources */,
+				47F44FF222BC87AE00617579 /* Frameworks */,
+				47F44FF322BC87AE00617579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F44FF722BC87AE00617579 /* PBXTargetDependency */,
+			);
+			name = MagtonicMobileReportTests;
+			productName = MagtonicMobileReportTests;
+			productReference = 47F44FF522BC87AE00617579 /* MagtonicMobileReportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47F44FFF22BC87AE00617579 /* MagtonicMobileReportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F4500F22BC87AE00617579 /* Build configuration list for PBXNativeTarget "MagtonicMobileReportUITests" */;
+			buildPhases = (
+				47F44FFC22BC87AE00617579 /* Sources */,
+				47F44FFD22BC87AE00617579 /* Frameworks */,
+				47F44FFE22BC87AE00617579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F4500222BC87AE00617579 /* PBXTargetDependency */,
+			);
+			name = MagtonicMobileReportUITests;
+			productName = MagtonicMobileReportUITests;
+			productReference = 47F4500022BC87AE00617579 /* MagtonicMobileReportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F44FD922BC87AB00617579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "richie shih";
+				TargetAttributes = {
+					47F44FE022BC87AB00617579 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					47F44FF422BC87AE00617579 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 47F44FE022BC87AB00617579;
+					};
+					47F44FFF22BC87AE00617579 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 47F44FE022BC87AB00617579;
+					};
+				};
+			};
+			buildConfigurationList = 47F44FDC22BC87AB00617579 /* Build configuration list for PBXProject "MagtonicMobileReport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47F44FD822BC87AB00617579;
+			productRefGroup = 47F44FE222BC87AB00617579 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F44FE022BC87AB00617579 /* MagtonicMobileReport */,
+				47F44FF422BC87AE00617579 /* MagtonicMobileReportTests */,
+				47F44FFF22BC87AE00617579 /* MagtonicMobileReportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F44FDF22BC87AB00617579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F44FEF22BC87AE00617579 /* LaunchScreen.storyboard in Resources */,
+				47F44FEC22BC87AE00617579 /* Assets.xcassets in Resources */,
+				47F44FEA22BC87AB00617579 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F44FF322BC87AE00617579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F44FFE22BC87AE00617579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F44FDD22BC87AB00617579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F44FE722BC87AB00617579 /* ViewController.swift in Sources */,
+				47F44FE522BC87AB00617579 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F44FF122BC87AE00617579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F44FFA22BC87AE00617579 /* MagtonicMobileReportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F44FFC22BC87AE00617579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F4500522BC87AE00617579 /* MagtonicMobileReportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47F44FF722BC87AE00617579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F44FE022BC87AB00617579 /* MagtonicMobileReport */;
+			targetProxy = 47F44FF622BC87AE00617579 /* PBXContainerItemProxy */;
+		};
+		47F4500222BC87AE00617579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F44FE022BC87AB00617579 /* MagtonicMobileReport */;
+			targetProxy = 47F4500122BC87AE00617579 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47F44FE822BC87AB00617579 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F44FE922BC87AB00617579 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47F44FED22BC87AE00617579 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F44FEE22BC87AE00617579 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47F4500722BC87AE00617579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47F4500822BC87AE00617579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47F4500A22BC87AE00617579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = MagtonicMobileReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.magtonic.MagtonicMobileReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47F4500B22BC87AE00617579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = MagtonicMobileReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.magtonic.MagtonicMobileReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47F4500D22BC87AE00617579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = MagtonicMobileReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.magtonic.MagtonicMobileReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagtonicMobileReport.app/MagtonicMobileReport";
+			};
+			name = Debug;
+		};
+		47F4500E22BC87AE00617579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = MagtonicMobileReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.magtonic.MagtonicMobileReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagtonicMobileReport.app/MagtonicMobileReport";
+			};
+			name = Release;
+		};
+		47F4501022BC87AE00617579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = MagtonicMobileReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.magtonic.MagtonicMobileReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagtonicMobileReport;
+			};
+			name = Debug;
+		};
+		47F4501122BC87AE00617579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25YRF78357;
+				INFOPLIST_FILE = MagtonicMobileReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.magtonic.MagtonicMobileReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagtonicMobileReport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F44FDC22BC87AB00617579 /* Build configuration list for PBXProject "MagtonicMobileReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F4500722BC87AE00617579 /* Debug */,
+				47F4500822BC87AE00617579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F4500922BC87AE00617579 /* Build configuration list for PBXNativeTarget "MagtonicMobileReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F4500A22BC87AE00617579 /* Debug */,
+				47F4500B22BC87AE00617579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F4500C22BC87AE00617579 /* Build configuration list for PBXNativeTarget "MagtonicMobileReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F4500D22BC87AE00617579 /* Debug */,
+				47F4500E22BC87AE00617579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F4500F22BC87AE00617579 /* Build configuration list for PBXNativeTarget "MagtonicMobileReportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F4501022BC87AE00617579 /* Debug */,
+				47F4501122BC87AE00617579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F44FD922BC87AB00617579 /* Project object */;
+}
