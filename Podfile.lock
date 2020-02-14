@@ -1,0 +1,16 @@
+PODS:
+  - NavigationDrawer (1.0.1)
+
+DEPENDENCIES:
+  - NavigationDrawer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - NavigationDrawer
+
+SPEC CHECKSUMS:
+  NavigationDrawer: 45ed18696d0d2f4679d05af690040074f7df57da
+
+PODFILE CHECKSUM: 5e2c39ae44d885a023606f083c85d3465426872b
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,6 @@
+framework module Pods_MagtonicMobileReportTests {
+  umbrella header "Pods-MagtonicMobileReportTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

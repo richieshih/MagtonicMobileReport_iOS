@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  MagtonicMobileReport
+
+  Created by richie shih on 2019/6/21.
+  Copyright © 2019 richie shih. All rights reserved.
+*/
+
+"MAGTONIC＿EMP_APP" = "期美行動資訊";
+"OPENING_COMPANY_NAME" = "期美科技";
+"OPENING_TITLE" = "行動資訊系統";
+"COMMON_OK" = "確定";
+"COMMON_CANCEL" = "取消";
+
+"LOGIN_TITLE" = "期美科技行動資訊系統";
+"LOGIN_EMP_NO" = "員工工號";
+"LOGIN_PASSWORD" = "密碼";
+"LOGIN_BUTTON_LOGIN" = "登入";
+
+"SLIDINGVIEW_MENU_TOP_TITLE" = "期美科技";
+"SLIDINGVIEW_MENU_TOP_EMP_GREETING" = "嗨, ";
+
+"LOGOUT_DIALOG_TITLE" = "登出";
+"LOGOUT_DIALOG_MSG" = "登出此帳號？";

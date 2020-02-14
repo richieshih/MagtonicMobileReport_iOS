@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  MagtonicMobileReport
+
+  Created by richie shih on 2019/6/21.
+  Copyright © 2019 richie shih. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "期美行動資訊";
+"CFBundleName" = "期美行動資訊";

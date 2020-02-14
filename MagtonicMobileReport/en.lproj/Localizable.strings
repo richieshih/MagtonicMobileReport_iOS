@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  MagtonicMobileReport
+
+  Created by richie shih on 2019/6/21.
+  Copyright © 2019 richie shih. All rights reserved.
+*/
+
+"MAGTONIC＿EMP_APP" = "Magtonic Report System";
+"OPENING_COMPANY_NAME" = "Magtonic Technology Inc.";
+"OPENING_TITLE" = "Mobile Report System";
+"COMMON_OK" = "Confirm";
+"COMMON_CANCEL" = "Cancel";
+
+"LOGIN_TITLE" = "Magtonic Report System";
+"LOGIN_EMP_NO" = "Employee No.";
+"LOGIN_PASSWORD" = "Password";
+"LOGIN_BUTTON_LOGIN" = "Login";
+
+"SLIDINGVIEW_MENU_TOP_TITLE" = "Magtonic";
+"SLIDINGVIEW_MENU_TOP_EMP_GREETING" = "Hi, ";
+
+"LOGOUT_DIALOG_TITLE" = "Logout";
+"LOGOUT_DIALOG_MSG" = "Logout from this account?";

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2881615BB82EAC853C212B /* Pods_MagtonicMobileReport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EBF8FA368C36F109C0CCCF /* Pods_MagtonicMobileReport.framework */; };
+		4700F1BE22C06C6600D6B01D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4700F1BD22C06C6600D6B01D /* BaseViewController.swift */; };
+		4700F1C022C06E1A00D6B01D /* SlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4700F1BF22C06E1A00D6B01D /* SlidingViewController.swift */; };
+		4700F1C222C0CE6E00D6B01D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4700F1C122C0CE6E00D6B01D /* WebKit.framework */; };
+		475097A122C1B65D003D2FD4 /* HeaderURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475097A022C1B65D003D2FD4 /* HeaderURL.swift */; };
 		47F44FE522BC87AB00617579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F44FE422BC87AB00617579 /* AppDelegate.swift */; };
 		47F44FE722BC87AB00617579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F44FE622BC87AB00617579 /* ViewController.swift */; };
 		47F44FEA22BC87AB00617579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F44FE822BC87AB00617579 /* Main.storyboard */; };
@@ -14,6 +19,13 @@
 		47F44FEF22BC87AE00617579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F44FED22BC87AE00617579 /* LaunchScreen.storyboard */; };
 		47F44FFA22BC87AE00617579 /* MagtonicMobileReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F44FF922BC87AE00617579 /* MagtonicMobileReportTests.swift */; };
 		47F4500522BC87AE00617579 /* MagtonicMobileReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F4500422BC87AE00617579 /* MagtonicMobileReportUITests.swift */; };
+		47F4501922BC8A0700617579 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47F4501B22BC8A0700617579 /* Localizable.strings */; };
+		47F4501F22BC8A6400617579 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47F4502122BC8A6400617579 /* InfoPlist.strings */; };
+		47F4502522BCAE8400617579 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F4502422BCAE8400617579 /* OpeningViewController.swift */; };
+		47F4502722BCB02F00617579 /* CurrentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F4502622BCB02F00617579 /* CurrentView.swift */; };
+		47F4502922BCB94F00617579 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F4502822BCB94E00617579 /* LoginViewController.swift */; };
+		8B373D6A9507EB6313DE0988 /* Pods_MagtonicMobileReportTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29246A41531ED78A576EBA40 /* Pods_MagtonicMobileReportTests.framework */; };
+		CD4875E39CAC8380D2FC3503 /* Pods_MagtonicMobileReportUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E63A1520FF117825810C68 /* Pods_MagtonicMobileReportUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14C7EAD8C62A91323BC29B6C /* Pods-MagtonicMobileReportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicMobileReportUITests.debug.xcconfig"; path = "Target Support Files/Pods-MagtonicMobileReportUITests/Pods-MagtonicMobileReportUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29246A41531ED78A576EBA40 /* Pods_MagtonicMobileReportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicMobileReportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E63A1520FF117825810C68 /* Pods_MagtonicMobileReportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicMobileReportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4700F1BD22C06C6600D6B01D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4700F1BF22C06E1A00D6B01D /* SlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingViewController.swift; sourceTree = "<group>"; };
+		4700F1C122C0CE6E00D6B01D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		475097A022C1B65D003D2FD4 /* HeaderURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderURL.swift; sourceTree = "<group>"; };
 		47F44FE122BC87AB00617579 /* MagtonicMobileReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagtonicMobileReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F44FE422BC87AB00617579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47F44FE622BC87AB00617579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,19 @@
 		47F4500022BC87AE00617579 /* MagtonicMobileReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagtonicMobileReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F4500422BC87AE00617579 /* MagtonicMobileReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagtonicMobileReportUITests.swift; sourceTree = "<group>"; };
 		47F4500622BC87AE00617579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F4501C22BC8A0F00617579 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		47F4502022BC8A6400617579 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47F4502222BC8A6700617579 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		47F4502322BC8A7500617579 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		47F4502422BCAE8400617579 /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
+		47F4502622BCB02F00617579 /* CurrentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentView.swift; sourceTree = "<group>"; };
+		47F4502822BCB94E00617579 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		66032E20BF24154415499F39 /* Pods-MagtonicMobileReportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicMobileReportTests.debug.xcconfig"; path = "Target Support Files/Pods-MagtonicMobileReportTests/Pods-MagtonicMobileReportTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CF0B7281F74A8A47A629908 /* Pods-MagtonicMobileReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicMobileReport.debug.xcconfig"; path = "Target Support Files/Pods-MagtonicMobileReport/Pods-MagtonicMobileReport.debug.xcconfig"; sourceTree = "<group>"; };
+		8C269EDD4651D066B40B1476 /* Pods-MagtonicMobileReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicMobileReport.release.xcconfig"; path = "Target Support Files/Pods-MagtonicMobileReport/Pods-MagtonicMobileReport.release.xcconfig"; sourceTree = "<group>"; };
+		B64959ABCFC92A6DD7A27143 /* Pods-MagtonicMobileReportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicMobileReportTests.release.xcconfig"; path = "Target Support Files/Pods-MagtonicMobileReportTests/Pods-MagtonicMobileReportTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7EBF8FA368C36F109C0CCCF /* Pods_MagtonicMobileReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicMobileReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E54117AE01707C8CC5AB5594 /* Pods-MagtonicMobileReportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagtonicMobileReportUITests.release.xcconfig"; path = "Target Support Files/Pods-MagtonicMobileReportUITests/Pods-MagtonicMobileReportUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4700F1C222C0CE6E00D6B01D /* WebKit.framework in Frameworks */,
+				3E2881615BB82EAC853C212B /* Pods_MagtonicMobileReport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B373D6A9507EB6313DE0988 /* Pods_MagtonicMobileReportTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4875E39CAC8380D2FC3503 /* Pods_MagtonicMobileReportUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +117,8 @@
 				47F44FF822BC87AE00617579 /* MagtonicMobileReportTests */,
 				47F4500322BC87AE00617579 /* MagtonicMobileReportUITests */,
 				47F44FE222BC87AB00617579 /* Products */,
+				A9E96C81850112A44CB10AD8 /* Pods */,
+				D7414FB1AFF0157C8093CA4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +135,20 @@
 		47F44FE322BC87AB00617579 /* MagtonicMobileReport */ = {
 			isa = PBXGroup;
 			children = (
+				47F44FF022BC87AE00617579 /* Info.plist */,
 				47F44FE422BC87AB00617579 /* AppDelegate.swift */,
 				47F44FE622BC87AB00617579 /* ViewController.swift */,
-				47F44FE822BC87AB00617579 /* Main.storyboard */,
 				47F44FEB22BC87AE00617579 /* Assets.xcassets */,
+				47F4502122BC8A6400617579 /* InfoPlist.strings */,
 				47F44FED22BC87AE00617579 /* LaunchScreen.storyboard */,
-				47F44FF022BC87AE00617579 /* Info.plist */,
+				47F4501B22BC8A0700617579 /* Localizable.strings */,
+				47F44FE822BC87AB00617579 /* Main.storyboard */,
+				47F4502422BCAE8400617579 /* OpeningViewController.swift */,
+				47F4502622BCB02F00617579 /* CurrentView.swift */,
+				47F4502822BCB94E00617579 /* LoginViewController.swift */,
+				4700F1BD22C06C6600D6B01D /* BaseViewController.swift */,
+				4700F1BF22C06E1A00D6B01D /* SlidingViewController.swift */,
+				475097A022C1B65D003D2FD4 /* HeaderURL.swift */,
 			);
 			path = MagtonicMobileReport;
 			sourceTree = "<group>";
@@ -125,6 +171,30 @@
 			path = MagtonicMobileReportUITests;
 			sourceTree = "<group>";
 		};
+		A9E96C81850112A44CB10AD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CF0B7281F74A8A47A629908 /* Pods-MagtonicMobileReport.debug.xcconfig */,
+				8C269EDD4651D066B40B1476 /* Pods-MagtonicMobileReport.release.xcconfig */,
+				66032E20BF24154415499F39 /* Pods-MagtonicMobileReportTests.debug.xcconfig */,
+				B64959ABCFC92A6DD7A27143 /* Pods-MagtonicMobileReportTests.release.xcconfig */,
+				14C7EAD8C62A91323BC29B6C /* Pods-MagtonicMobileReportUITests.debug.xcconfig */,
+				E54117AE01707C8CC5AB5594 /* Pods-MagtonicMobileReportUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7414FB1AFF0157C8093CA4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4700F1C122C0CE6E00D6B01D /* WebKit.framework */,
+				C7EBF8FA368C36F109C0CCCF /* Pods_MagtonicMobileReport.framework */,
+				29246A41531ED78A576EBA40 /* Pods_MagtonicMobileReportTests.framework */,
+				35E63A1520FF117825810C68 /* Pods_MagtonicMobileReportUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47F4500922BC87AE00617579 /* Build configuration list for PBXNativeTarget "MagtonicMobileReport" */;
 			buildPhases = (
+				2477A584713B038182EBDEAD /* [CP] Check Pods Manifest.lock */,
 				47F44FDD22BC87AB00617579 /* Sources */,
 				47F44FDE22BC87AB00617579 /* Frameworks */,
 				47F44FDF22BC87AB00617579 /* Resources */,
+				CA88C617AED27F35727EE32D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47F4500C22BC87AE00617579 /* Build configuration list for PBXNativeTarget "MagtonicMobileReportTests" */;
 			buildPhases = (
+				5BD64EBF72D4D2B829FC7E82 /* [CP] Check Pods Manifest.lock */,
 				47F44FF122BC87AE00617579 /* Sources */,
 				47F44FF222BC87AE00617579 /* Frameworks */,
 				47F44FF322BC87AE00617579 /* Resources */,
@@ -167,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47F4500F22BC87AE00617579 /* Build configuration list for PBXNativeTarget "MagtonicMobileReportUITests" */;
 			buildPhases = (
+				41449CF9C66C3AB200E95A4A /* [CP] Check Pods Manifest.lock */,
 				47F44FFC22BC87AE00617579 /* Sources */,
 				47F44FFD22BC87AE00617579 /* Frameworks */,
 				47F44FFE22BC87AE00617579 /* Resources */,
@@ -211,6 +285,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 47F44FD822BC87AB00617579;
 			productRefGroup = 47F44FE222BC87AB00617579 /* Products */;
@@ -230,8 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47F44FEF22BC87AE00617579 /* LaunchScreen.storyboard in Resources */,
+				47F4501922BC8A0700617579 /* Localizable.strings in Resources */,
 				47F44FEC22BC87AE00617579 /* Assets.xcassets in Resources */,
 				47F44FEA22BC87AB00617579 /* Main.storyboard in Resources */,
+				47F4501F22BC8A6400617579 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +328,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2477A584713B038182EBDEAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagtonicMobileReport-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41449CF9C66C3AB200E95A4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagtonicMobileReportUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BD64EBF72D4D2B829FC7E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagtonicMobileReportTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA88C617AED27F35727EE32D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagtonicMobileReport/Pods-MagtonicMobileReport-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NavigationDrawer/NavigationDrawer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NavigationDrawer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagtonicMobileReport/Pods-MagtonicMobileReport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47F44FDD22BC87AB00617579 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				47F44FE722BC87AB00617579 /* ViewController.swift in Sources */,
+				47F4502522BCAE8400617579 /* OpeningViewController.swift in Sources */,
+				47F4502722BCB02F00617579 /* CurrentView.swift in Sources */,
+				4700F1C022C06E1A00D6B01D /* SlidingViewController.swift in Sources */,
+				47F4502922BCB94F00617579 /* LoginViewController.swift in Sources */,
 				47F44FE522BC87AB00617579 /* AppDelegate.swift in Sources */,
+				475097A122C1B65D003D2FD4 /* HeaderURL.swift in Sources */,
+				4700F1BE22C06C6600D6B01D /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +483,24 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		47F4501B22BC8A0700617579 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F4501C22BC8A0F00617579 /* en */,
+				47F4502322BC8A7500617579 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		47F4502122BC8A6400617579 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F4502022BC8A6400617579 /* en */,
+				47F4502222BC8A6700617579 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -316,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -430,6 +624,7 @@
 		};
 		47F4500A22BC87AE00617579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF0B7281F74A8A47A629908 /* Pods-MagtonicMobileReport.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +643,7 @@
 		};
 		47F4500B22BC87AE00617579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C269EDD4651D066B40B1476 /* Pods-MagtonicMobileReport.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +662,7 @@
 		};
 		47F4500D22BC87AE00617579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66032E20BF24154415499F39 /* Pods-MagtonicMobileReportTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +684,7 @@
 		};
 		47F4500E22BC87AE00617579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64959ABCFC92A6DD7A27143 /* Pods-MagtonicMobileReportTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +706,7 @@
 		};
 		47F4501022BC87AE00617579 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C7EAD8C62A91323BC29B6C /* Pods-MagtonicMobileReportUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +727,7 @@
 		};
 		47F4501122BC87AE00617579 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54117AE01707C8CC5AB5594 /* Pods-MagtonicMobileReportUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC52C6927BCCDE4E49DE8FB12FB43B9 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13FB0B51BB3857DE1E8F429C15E569 /* Interactor.swift */; };
+		0EBE0EBC78729910BBC72268DD2A155C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		255ADF93A492B540259F170E2CE87640 /* MenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1DF9AFABD19D1AFB1E2563CE783CD8 /* MenuHelper.swift */; };
+		2AD78731E054D3939EF9833246598743 /* Pods-MagtonicMobileReport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE22D5755ACE7C0074B3805B69281E2 /* Pods-MagtonicMobileReport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3448853EB67CA3B6C700E3186231B1A3 /* PresentMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1D126EF53F9F8B58AA8AC93939B6E /* PresentMenuAnimator.swift */; };
+		4F44B3DAB93750309A51B236585C6AB9 /* Pods-MagtonicMobileReportTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDE4EBEAD5F977F1419DE848308CA4D /* Pods-MagtonicMobileReportTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5810F3504E84F40ED037C12C3B3A6993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		87D493417C06E7B77B930388E110CDA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8AD27BA682AA3E2590966E074EAAE0F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CB14DC041BA87A3BC77F1D5EE2F4CB44 /* NavigationDrawer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E414787013B1D990AFA9A2A7CF07D08 /* NavigationDrawer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8543B41AAF2F84172E04C70866D75C5 /* DismissMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C9540CBD249906DEE63E5C2D1499E /* DismissMenuAnimator.swift */; };
+		ED2DE4FA04DB7CAF58EAEA740C3CB701 /* Pods-MagtonicMobileReport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BE1E87CD2E4BFC852631F21C315F1B /* Pods-MagtonicMobileReport-dummy.m */; };
+		EE986D15D05B09BDCF2EEB93A9CC119A /* Pods-MagtonicMobileReportUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF0EB2D50FB28DE496A5A9AA1D0F03E /* Pods-MagtonicMobileReportUITests-dummy.m */; };
+		F0375C80ABCBA635C53C93ADAE434699 /* NavigationDrawer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAE06A983B1FEAE64E7EEE8D0609D6F /* NavigationDrawer-dummy.m */; };
+		FD9F0A6E28686607DBCFA002958849E9 /* Pods-MagtonicMobileReportTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EBBB4C10FEF10E0D0E5032BF5EAB28 /* Pods-MagtonicMobileReportTests-dummy.m */; };
+		FF49636BC915A5EB9BEBDF9FD0F5D7B6 /* Pods-MagtonicMobileReportUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26DBA98285E75F251EA9F3FA40EC7F5B /* Pods-MagtonicMobileReportUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D77B97CF93B58675C230755F3D79CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD3989423DB0A1649B9D9DB1B9F2D18;
+			remoteInfo = NavigationDrawer;
+		};
+		658BC25C0C6AEBEE3203B6CD7DA0E818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B4992E87319D8F3F389F525E50185AE;
+			remoteInfo = "Pods-MagtonicMobileReport";
+		};
+		FFB3B1359FBABE8F6959F77D092D7D3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B4992E87319D8F3F389F525E50185AE;
+			remoteInfo = "Pods-MagtonicMobileReport";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A0A282AE35E48DA112CBA7FF3C66042 /* Pods-MagtonicMobileReport-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagtonicMobileReport-frameworks.sh"; sourceTree = "<group>"; };
+		1A0F2970F2E1F7F1CA2D3338CA37B0D1 /* Pods-MagtonicMobileReportUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicMobileReportUITests.modulemap"; sourceTree = "<group>"; };
+		1BDA77E1ABC78BB16ED0E0CDB6C3AC1B /* Pods-MagtonicMobileReportTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicMobileReportTests.release.xcconfig"; sourceTree = "<group>"; };
+		22BE1E87CD2E4BFC852631F21C315F1B /* Pods-MagtonicMobileReport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicMobileReport-dummy.m"; sourceTree = "<group>"; };
+		26DBA98285E75F251EA9F3FA40EC7F5B /* Pods-MagtonicMobileReportUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicMobileReportUITests-umbrella.h"; sourceTree = "<group>"; };
+		29EBBB4C10FEF10E0D0E5032BF5EAB28 /* Pods-MagtonicMobileReportTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicMobileReportTests-dummy.m"; sourceTree = "<group>"; };
+		2BE7F99FCD41215DBEB5BE5C419F1543 /* Pods-MagtonicMobileReportTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicMobileReportTests.modulemap"; sourceTree = "<group>"; };
+		34EE4B9C15C18F361CF9291685EB8E9E /* Pods_MagtonicMobileReportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicMobileReportUITests.framework; path = "Pods-MagtonicMobileReportUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C76C570F4D5CD8289C1EB64413DDA46 /* Pods-MagtonicMobileReport-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicMobileReport-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BA7F6ADAEC3BA1FEB34015F3DCBD0DC /* NavigationDrawer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavigationDrawer-Info.plist"; sourceTree = "<group>"; };
+		5CDE4EBEAD5F977F1419DE848308CA4D /* Pods-MagtonicMobileReportTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicMobileReportTests-umbrella.h"; sourceTree = "<group>"; };
+		630C9540CBD249906DEE63E5C2D1499E /* DismissMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissMenuAnimator.swift; path = NavigationDrawer/Sources/DismissMenuAnimator.swift; sourceTree = "<group>"; };
+		65914CC420876DFC72EEC5BE028059CE /* Pods-MagtonicMobileReportUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicMobileReportUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		675BE6025B28E3ACE36D6C745C20FD2D /* NavigationDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationDrawer.framework; path = NavigationDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE22D5755ACE7C0074B3805B69281E2 /* Pods-MagtonicMobileReport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicMobileReport-umbrella.h"; sourceTree = "<group>"; };
+		70BB4A3E6DC4DBE34D458FBE0459980D /* NavigationDrawer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationDrawer-prefix.pch"; sourceTree = "<group>"; };
+		757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationDrawer.xcconfig; sourceTree = "<group>"; };
+		7B13FB0B51BB3857DE1E8F429C15E569 /* Interactor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interactor.swift; path = NavigationDrawer/Sources/Interactor.swift; sourceTree = "<group>"; };
+		7E414787013B1D990AFA9A2A7CF07D08 /* NavigationDrawer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationDrawer-umbrella.h"; sourceTree = "<group>"; };
+		90236F988A84C19114BE1425AEFF4820 /* Pods-MagtonicMobileReport-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicMobileReport-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A00772FD5EA8338F9EE1B1862EF5799 /* Pods-MagtonicMobileReportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicMobileReportUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CAE06A983B1FEAE64E7EEE8D0609D6F /* NavigationDrawer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationDrawer-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E43647B5C1F6847A5C78893D9DCC7BC /* Pods-MagtonicMobileReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicMobileReport.release.xcconfig"; sourceTree = "<group>"; };
+		A93F8768A50F8C54DFE10DDFC853E96D /* NavigationDrawer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavigationDrawer.modulemap; sourceTree = "<group>"; };
+		B72E0C4A90AC72003940FDB317490B06 /* Pods-MagtonicMobileReport-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicMobileReport-Info.plist"; sourceTree = "<group>"; };
+		BC1A83CAFB5E7CFBE6ED204A1CCEC703 /* Pods-MagtonicMobileReportTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicMobileReportTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1DF9AFABD19D1AFB1E2563CE783CD8 /* MenuHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuHelper.swift; path = NavigationDrawer/Sources/MenuHelper.swift; sourceTree = "<group>"; };
+		C9B1D126EF53F9F8B58AA8AC93939B6E /* PresentMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentMenuAnimator.swift; path = NavigationDrawer/Sources/PresentMenuAnimator.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD3A5A85F774EDDF45D1E4182620E4FB /* Pods-MagtonicMobileReportTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicMobileReportTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D09A54FCE85EB635DC1610F01950D078 /* Pods-MagtonicMobileReportUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicMobileReportUITests-Info.plist"; sourceTree = "<group>"; };
+		D18B0FDB7FB66EB718A53E6793E82C82 /* Pods-MagtonicMobileReportTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicMobileReportTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5F7AB27D7E921F65122D7264D05B192 /* Pods-MagtonicMobileReportTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicMobileReportTests-Info.plist"; sourceTree = "<group>"; };
+		DB4EA8B35B18EADFD74A8C463769A6FF /* Pods-MagtonicMobileReportUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicMobileReportUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFF0EB2D50FB28DE496A5A9AA1D0F03E /* Pods-MagtonicMobileReportUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicMobileReportUITests-dummy.m"; sourceTree = "<group>"; };
+		EA79A9EC13E74C8CA5C58211ED6F98DC /* Pods_MagtonicMobileReportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicMobileReportTests.framework; path = "Pods-MagtonicMobileReportTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEC8F0FEB34097379CDE63F6E8E7AC8 /* Pods-MagtonicMobileReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicMobileReport.debug.xcconfig"; sourceTree = "<group>"; };
+		EF45E188A18133EB7049D19C304C8F36 /* Pods_MagtonicMobileReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicMobileReport.framework; path = "Pods-MagtonicMobileReport.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C44BA33967DF657473158798FD1C97 /* Pods-MagtonicMobileReportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicMobileReportUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7D27E35E943489F26A81218A885ECAF /* Pods-MagtonicMobileReport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicMobileReport.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60A433D9ADBABE4825A748B7BEEDD01B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EBE0EBC78729910BBC72268DD2A155C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B84C69A1A5A3FC8685FF693D2D382E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D493417C06E7B77B930388E110CDA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838AD976CDAA90C3C60BCA7BCCFBA48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD27BA682AA3E2590966E074EAAE0F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E3DE4D3573ED99EA6F12FF1B23954E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5810F3504E84F40ED037C12C3B3A6993 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		717AB00296FC3A4379D992184C649965 /* Pods-MagtonicMobileReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE7F99FCD41215DBEB5BE5C419F1543 /* Pods-MagtonicMobileReportTests.modulemap */,
+				D18B0FDB7FB66EB718A53E6793E82C82 /* Pods-MagtonicMobileReportTests-acknowledgements.markdown */,
+				CD3A5A85F774EDDF45D1E4182620E4FB /* Pods-MagtonicMobileReportTests-acknowledgements.plist */,
+				29EBBB4C10FEF10E0D0E5032BF5EAB28 /* Pods-MagtonicMobileReportTests-dummy.m */,
+				D5F7AB27D7E921F65122D7264D05B192 /* Pods-MagtonicMobileReportTests-Info.plist */,
+				5CDE4EBEAD5F977F1419DE848308CA4D /* Pods-MagtonicMobileReportTests-umbrella.h */,
+				BC1A83CAFB5E7CFBE6ED204A1CCEC703 /* Pods-MagtonicMobileReportTests.debug.xcconfig */,
+				1BDA77E1ABC78BB16ED0E0CDB6C3AC1B /* Pods-MagtonicMobileReportTests.release.xcconfig */,
+			);
+			name = "Pods-MagtonicMobileReportTests";
+			path = "Target Support Files/Pods-MagtonicMobileReportTests";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AF9D725F805D746DDE8EC3F8589A06E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				675BE6025B28E3ACE36D6C745C20FD2D /* NavigationDrawer.framework */,
+				EF45E188A18133EB7049D19C304C8F36 /* Pods_MagtonicMobileReport.framework */,
+				EA79A9EC13E74C8CA5C58211ED6F98DC /* Pods_MagtonicMobileReportTests.framework */,
+				34EE4B9C15C18F361CF9291685EB8E9E /* Pods_MagtonicMobileReportUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9DBC7486FDCA681CC6A1EC472798A28 /* Pods-MagtonicMobileReport */ = {
+			isa = PBXGroup;
+			children = (
+				F7D27E35E943489F26A81218A885ECAF /* Pods-MagtonicMobileReport.modulemap */,
+				90236F988A84C19114BE1425AEFF4820 /* Pods-MagtonicMobileReport-acknowledgements.markdown */,
+				4C76C570F4D5CD8289C1EB64413DDA46 /* Pods-MagtonicMobileReport-acknowledgements.plist */,
+				22BE1E87CD2E4BFC852631F21C315F1B /* Pods-MagtonicMobileReport-dummy.m */,
+				1A0A282AE35E48DA112CBA7FF3C66042 /* Pods-MagtonicMobileReport-frameworks.sh */,
+				B72E0C4A90AC72003940FDB317490B06 /* Pods-MagtonicMobileReport-Info.plist */,
+				6AE22D5755ACE7C0074B3805B69281E2 /* Pods-MagtonicMobileReport-umbrella.h */,
+				ECEC8F0FEB34097379CDE63F6E8E7AC8 /* Pods-MagtonicMobileReport.debug.xcconfig */,
+				9E43647B5C1F6847A5C78893D9DCC7BC /* Pods-MagtonicMobileReport.release.xcconfig */,
+			);
+			name = "Pods-MagtonicMobileReport";
+			path = "Target Support Files/Pods-MagtonicMobileReport";
+			sourceTree = "<group>";
+		};
+		CAA88D275D9288B362E333D15E6BF46A /* Pods-MagtonicMobileReportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F2970F2E1F7F1CA2D3338CA37B0D1 /* Pods-MagtonicMobileReportUITests.modulemap */,
+				65914CC420876DFC72EEC5BE028059CE /* Pods-MagtonicMobileReportUITests-acknowledgements.markdown */,
+				DB4EA8B35B18EADFD74A8C463769A6FF /* Pods-MagtonicMobileReportUITests-acknowledgements.plist */,
+				DFF0EB2D50FB28DE496A5A9AA1D0F03E /* Pods-MagtonicMobileReportUITests-dummy.m */,
+				D09A54FCE85EB635DC1610F01950D078 /* Pods-MagtonicMobileReportUITests-Info.plist */,
+				26DBA98285E75F251EA9F3FA40EC7F5B /* Pods-MagtonicMobileReportUITests-umbrella.h */,
+				9A00772FD5EA8338F9EE1B1862EF5799 /* Pods-MagtonicMobileReportUITests.debug.xcconfig */,
+				F7C44BA33967DF657473158798FD1C97 /* Pods-MagtonicMobileReportUITests.release.xcconfig */,
+			);
+			name = "Pods-MagtonicMobileReportUITests";
+			path = "Target Support Files/Pods-MagtonicMobileReportUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E38BBAF58BB02F0D5A9BCED1A5C3A3A0 /* Pods */,
+				AF9D725F805D746DDE8EC3F8589A06E3 /* Products */,
+				EF0B0123A61FF44DF3A28843ED38F080 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E38BBAF58BB02F0D5A9BCED1A5C3A3A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5AD7518565F1F1E5DF00DE40713BE67 /* NavigationDrawer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5AD7518565F1F1E5DF00DE40713BE67 /* NavigationDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				630C9540CBD249906DEE63E5C2D1499E /* DismissMenuAnimator.swift */,
+				7B13FB0B51BB3857DE1E8F429C15E569 /* Interactor.swift */,
+				BC1DF9AFABD19D1AFB1E2563CE783CD8 /* MenuHelper.swift */,
+				C9B1D126EF53F9F8B58AA8AC93939B6E /* PresentMenuAnimator.swift */,
+				E7B19FC3C0BD662193945DEE594FD359 /* Support Files */,
+			);
+			name = NavigationDrawer;
+			path = NavigationDrawer;
+			sourceTree = "<group>";
+		};
+		E7B19FC3C0BD662193945DEE594FD359 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93F8768A50F8C54DFE10DDFC853E96D /* NavigationDrawer.modulemap */,
+				757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */,
+				9CAE06A983B1FEAE64E7EEE8D0609D6F /* NavigationDrawer-dummy.m */,
+				5BA7F6ADAEC3BA1FEB34015F3DCBD0DC /* NavigationDrawer-Info.plist */,
+				70BB4A3E6DC4DBE34D458FBE0459980D /* NavigationDrawer-prefix.pch */,
+				7E414787013B1D990AFA9A2A7CF07D08 /* NavigationDrawer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NavigationDrawer";
+			sourceTree = "<group>";
+		};
+		EF0B0123A61FF44DF3A28843ED38F080 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9DBC7486FDCA681CC6A1EC472798A28 /* Pods-MagtonicMobileReport */,
+				717AB00296FC3A4379D992184C649965 /* Pods-MagtonicMobileReportTests */,
+				CAA88D275D9288B362E333D15E6BF46A /* Pods-MagtonicMobileReportUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		080023D4EB7E0CF3A34AD0C21F0B05BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49636BC915A5EB9BEBDF9FD0F5D7B6 /* Pods-MagtonicMobileReportUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CE86C67A5BFBD8951B4D18BBBAA9B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD78731E054D3939EF9833246598743 /* Pods-MagtonicMobileReport-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C524F0E0BB06D356F62848028C68A17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F44B3DAB93750309A51B236585C6AB9 /* Pods-MagtonicMobileReportTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A997DEFE8FE0CEF28007EE1C40EB207 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB14DC041BA87A3BC77F1D5EE2F4CB44 /* NavigationDrawer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B4992E87319D8F3F389F525E50185AE /* Pods-MagtonicMobileReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368F593AD6A75C481B8D2E93F69A535C /* Build configuration list for PBXNativeTarget "Pods-MagtonicMobileReport" */;
+			buildPhases = (
+				18CE86C67A5BFBD8951B4D18BBBAA9B4 /* Headers */,
+				59CE34F120E3908FC4785268A136B974 /* Sources */,
+				838AD976CDAA90C3C60BCA7BCCFBA48D /* Frameworks */,
+				616420D0970CCE6CDB9C1ADCCB718B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B273E1CAACDC27C12745A06466DEAB84 /* PBXTargetDependency */,
+			);
+			name = "Pods-MagtonicMobileReport";
+			productName = "Pods-MagtonicMobileReport";
+			productReference = EF45E188A18133EB7049D19C304C8F36 /* Pods_MagtonicMobileReport.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		418E08C9CD30FB5F70BE38BDC724CC49 /* Pods-MagtonicMobileReportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F018D02ADB2FAE991FE31BC54455F5 /* Build configuration list for PBXNativeTarget "Pods-MagtonicMobileReportUITests" */;
+			buildPhases = (
+				080023D4EB7E0CF3A34AD0C21F0B05BA /* Headers */,
+				9A10A7540AE903D392A4DB20429D5E95 /* Sources */,
+				60A433D9ADBABE4825A748B7BEEDD01B /* Frameworks */,
+				100BAABD933579CF0C78ABA99C207E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C9E046AEB251600DB3716495ACF0C1A /* PBXTargetDependency */,
+			);
+			name = "Pods-MagtonicMobileReportUITests";
+			productName = "Pods-MagtonicMobileReportUITests";
+			productReference = 34EE4B9C15C18F361CF9291685EB8E9E /* Pods_MagtonicMobileReportUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9940B1AADA8F3DBE4CABF400C8001E59 /* Pods-MagtonicMobileReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020B9ABAA51EA06F75DF5C9990914E82 /* Build configuration list for PBXNativeTarget "Pods-MagtonicMobileReportTests" */;
+			buildPhases = (
+				4C524F0E0BB06D356F62848028C68A17 /* Headers */,
+				61750447194B5A3FA1E33695FA932259 /* Sources */,
+				F3E3DE4D3573ED99EA6F12FF1B23954E /* Frameworks */,
+				B5A08C935161D1C67108CADF19AB04EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1810EFA6AB2855858ADAB900C024CE0A /* PBXTargetDependency */,
+			);
+			name = "Pods-MagtonicMobileReportTests";
+			productName = "Pods-MagtonicMobileReportTests";
+			productReference = EA79A9EC13E74C8CA5C58211ED6F98DC /* Pods_MagtonicMobileReportTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCD3989423DB0A1649B9D9DB1B9F2D18 /* NavigationDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133CEEE4FED49FB6AD3A1B68FD683ADB /* Build configuration list for PBXNativeTarget "NavigationDrawer" */;
+			buildPhases = (
+				5A997DEFE8FE0CEF28007EE1C40EB207 /* Headers */,
+				9757826F466186E116022D50D9F462D3 /* Sources */,
+				64B84C69A1A5A3FC8685FF693D2D382E /* Frameworks */,
+				1F8B626F849ACFB1284C0E41F276B68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationDrawer;
+			productName = NavigationDrawer;
+			productReference = 675BE6025B28E3ACE36D6C745C20FD2D /* NavigationDrawer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF9D725F805D746DDE8EC3F8589A06E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD3989423DB0A1649B9D9DB1B9F2D18 /* NavigationDrawer */,
+				0B4992E87319D8F3F389F525E50185AE /* Pods-MagtonicMobileReport */,
+				9940B1AADA8F3DBE4CABF400C8001E59 /* Pods-MagtonicMobileReportTests */,
+				418E08C9CD30FB5F70BE38BDC724CC49 /* Pods-MagtonicMobileReportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100BAABD933579CF0C78ABA99C207E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F8B626F849ACFB1284C0E41F276B68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616420D0970CCE6CDB9C1ADCCB718B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A08C935161D1C67108CADF19AB04EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59CE34F120E3908FC4785268A136B974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2DE4FA04DB7CAF58EAEA740C3CB701 /* Pods-MagtonicMobileReport-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61750447194B5A3FA1E33695FA932259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9F0A6E28686607DBCFA002958849E9 /* Pods-MagtonicMobileReportTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9757826F466186E116022D50D9F462D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8543B41AAF2F84172E04C70866D75C5 /* DismissMenuAnimator.swift in Sources */,
+				0DC52C6927BCCDE4E49DE8FB12FB43B9 /* Interactor.swift in Sources */,
+				255ADF93A492B540259F170E2CE87640 /* MenuHelper.swift in Sources */,
+				F0375C80ABCBA635C53C93ADAE434699 /* NavigationDrawer-dummy.m in Sources */,
+				3448853EB67CA3B6C700E3186231B1A3 /* PresentMenuAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A10A7540AE903D392A4DB20429D5E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE986D15D05B09BDCF2EEB93A9CC119A /* Pods-MagtonicMobileReportUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1810EFA6AB2855858ADAB900C024CE0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MagtonicMobileReport";
+			target = 0B4992E87319D8F3F389F525E50185AE /* Pods-MagtonicMobileReport */;
+			targetProxy = 658BC25C0C6AEBEE3203B6CD7DA0E818 /* PBXContainerItemProxy */;
+		};
+		5C9E046AEB251600DB3716495ACF0C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MagtonicMobileReport";
+			target = 0B4992E87319D8F3F389F525E50185AE /* Pods-MagtonicMobileReport */;
+			targetProxy = FFB3B1359FBABE8F6959F77D092D7D3D /* PBXContainerItemProxy */;
+		};
+		B273E1CAACDC27C12745A06466DEAB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NavigationDrawer;
+			target = CCD3989423DB0A1649B9D9DB1B9F2D18 /* NavigationDrawer */;
+			targetProxy = 46D77B97CF93B58675C230755F3D79CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21B7A6A723AAFC63C3538E2531D98A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NavigationDrawer/NavigationDrawer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NavigationDrawer/NavigationDrawer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NavigationDrawer/NavigationDrawer.modulemap";
+				PRODUCT_MODULE_NAME = NavigationDrawer;
+				PRODUCT_NAME = NavigationDrawer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52E5F37605296450643A5E810EB36DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A00772FD5EA8338F9EE1B1862EF5799 /* Pods-MagtonicMobileReportUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicMobileReportUITests/Pods-MagtonicMobileReportUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicMobileReportUITests/Pods-MagtonicMobileReportUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		556DEAE8BA38068D054EB4F8CFDC0D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NavigationDrawer/NavigationDrawer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NavigationDrawer/NavigationDrawer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NavigationDrawer/NavigationDrawer.modulemap";
+				PRODUCT_MODULE_NAME = NavigationDrawer;
+				PRODUCT_NAME = NavigationDrawer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A4F00728580315B6C57A80E97A9E5C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C44BA33967DF657473158798FD1C97 /* Pods-MagtonicMobileReportUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicMobileReportUITests/Pods-MagtonicMobileReportUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicMobileReportUITests/Pods-MagtonicMobileReportUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9958F4C6DFACCAF1D9184B60C0DB27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E43647B5C1F6847A5C78893D9DCC7BC /* Pods-MagtonicMobileReport.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicMobileReport/Pods-MagtonicMobileReport-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicMobileReport/Pods-MagtonicMobileReport.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42859D9E71792B4970FF0C095895387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1A83CAFB5E7CFBE6ED204A1CCEC703 /* Pods-MagtonicMobileReportTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicMobileReportTests/Pods-MagtonicMobileReportTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicMobileReportTests/Pods-MagtonicMobileReportTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E25F03E8E855B18FFFB21C7E1F2E5CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEC8F0FEB34097379CDE63F6E8E7AC8 /* Pods-MagtonicMobileReport.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicMobileReport/Pods-MagtonicMobileReport-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicMobileReport/Pods-MagtonicMobileReport.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAD81591E482BBD5DA3799C02402F476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDA77E1ABC78BB16ED0E0CDB6C3AC1B /* Pods-MagtonicMobileReportTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagtonicMobileReportTests/Pods-MagtonicMobileReportTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagtonicMobileReportTests/Pods-MagtonicMobileReportTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020B9ABAA51EA06F75DF5C9990914E82 /* Build configuration list for PBXNativeTarget "Pods-MagtonicMobileReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42859D9E71792B4970FF0C095895387 /* Debug */,
+				FAD81591E482BBD5DA3799C02402F476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F018D02ADB2FAE991FE31BC54455F5 /* Build configuration list for PBXNativeTarget "Pods-MagtonicMobileReportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E5F37605296450643A5E810EB36DEA /* Debug */,
+				A4F00728580315B6C57A80E97A9E5C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133CEEE4FED49FB6AD3A1B68FD683ADB /* Build configuration list for PBXNativeTarget "NavigationDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B7A6A723AAFC63C3538E2531D98A8F /* Debug */,
+				556DEAE8BA38068D054EB4F8CFDC0D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368F593AD6A75C481B8D2E93F69A535C /* Build configuration list for PBXNativeTarget "Pods-MagtonicMobileReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25F03E8E855B18FFFB21C7E1F2E5CB0 /* Debug */,
+				A9958F4C6DFACCAF1D9184B60C0DB27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
