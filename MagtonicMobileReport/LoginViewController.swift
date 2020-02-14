@@ -307,7 +307,7 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
         
         let defaultConfigObject = URLSessionConfiguration.default
         
-        let defaultSession = URLSession.init(configuration: defaultConfigObject, delegate: self, delegateQueue:OperationQueue.main)
+        _ = URLSession.init(configuration: defaultConfigObject, delegate: self, delegateQueue:OperationQueue.main)
         
         //now create a request to URL
         //let url_string = URL.init(fileURLWithPath: "http://61.216.114.217/asmx/WebService.asmx")
@@ -339,7 +339,7 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
                     let outputStr  = String(data: data!, encoding: String.Encoding.utf8) as String?
                     
                     //print("responsse = \(response)")
-                    print("outputStr = \(outputStr)")
+                    //print("outputStr = \(outputStr)")
                     
                     var cut_tail: String = ""
                     if outputStr!.count > 0 {

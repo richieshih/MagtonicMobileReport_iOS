@@ -52,7 +52,7 @@ class BaseViewController: UIViewController, UIViewControllerTransitioningDelegat
         funArray.append(fun3)
         funArray.append(fun4)
         
-        webKitView.scrollView
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -115,7 +115,7 @@ class BaseViewController: UIViewController, UIViewControllerTransitioningDelegat
     @IBAction func edgePanGesture(sender: UIScreenEdgePanGestureRecognizer) {
         let translation = sender.translation(in: view)
         
-        let progress = MenuHelper.calculateProgress(translationInView: translation, viewBounds: view.bounds, direction: .Right)
+        _ = MenuHelper.calculateProgress(translationInView: translation, viewBounds: view.bounds, direction: .Right)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

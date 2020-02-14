@@ -57,13 +57,13 @@
 		26DBA98285E75F251EA9F3FA40EC7F5B /* Pods-MagtonicMobileReportUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicMobileReportUITests-umbrella.h"; sourceTree = "<group>"; };
 		29EBBB4C10FEF10E0D0E5032BF5EAB28 /* Pods-MagtonicMobileReportTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicMobileReportTests-dummy.m"; sourceTree = "<group>"; };
 		2BE7F99FCD41215DBEB5BE5C419F1543 /* Pods-MagtonicMobileReportTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicMobileReportTests.modulemap"; sourceTree = "<group>"; };
-		34EE4B9C15C18F361CF9291685EB8E9E /* Pods_MagtonicMobileReportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicMobileReportUITests.framework; path = "Pods-MagtonicMobileReportUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34EE4B9C15C18F361CF9291685EB8E9E /* Pods_MagtonicMobileReportUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicMobileReportUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C76C570F4D5CD8289C1EB64413DDA46 /* Pods-MagtonicMobileReport-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicMobileReport-acknowledgements.plist"; sourceTree = "<group>"; };
 		5BA7F6ADAEC3BA1FEB34015F3DCBD0DC /* NavigationDrawer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NavigationDrawer-Info.plist"; sourceTree = "<group>"; };
 		5CDE4EBEAD5F977F1419DE848308CA4D /* Pods-MagtonicMobileReportTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicMobileReportTests-umbrella.h"; sourceTree = "<group>"; };
 		630C9540CBD249906DEE63E5C2D1499E /* DismissMenuAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DismissMenuAnimator.swift; path = NavigationDrawer/Sources/DismissMenuAnimator.swift; sourceTree = "<group>"; };
 		65914CC420876DFC72EEC5BE028059CE /* Pods-MagtonicMobileReportUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicMobileReportUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		675BE6025B28E3ACE36D6C745C20FD2D /* NavigationDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NavigationDrawer.framework; path = NavigationDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		675BE6025B28E3ACE36D6C745C20FD2D /* NavigationDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NavigationDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE22D5755ACE7C0074B3805B69281E2 /* Pods-MagtonicMobileReport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagtonicMobileReport-umbrella.h"; sourceTree = "<group>"; };
 		70BB4A3E6DC4DBE34D458FBE0459980D /* NavigationDrawer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NavigationDrawer-prefix.pch"; sourceTree = "<group>"; };
 		757458C1FD185E09E15112D809A97E3D /* NavigationDrawer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NavigationDrawer.xcconfig; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		90236F988A84C19114BE1425AEFF4820 /* Pods-MagtonicMobileReport-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagtonicMobileReport-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9A00772FD5EA8338F9EE1B1862EF5799 /* Pods-MagtonicMobileReportUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicMobileReportUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CAE06A983B1FEAE64E7EEE8D0609D6F /* NavigationDrawer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NavigationDrawer-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E43647B5C1F6847A5C78893D9DCC7BC /* Pods-MagtonicMobileReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicMobileReport.release.xcconfig"; sourceTree = "<group>"; };
 		A93F8768A50F8C54DFE10DDFC853E96D /* NavigationDrawer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NavigationDrawer.modulemap; sourceTree = "<group>"; };
 		B72E0C4A90AC72003940FDB317490B06 /* Pods-MagtonicMobileReport-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicMobileReport-Info.plist"; sourceTree = "<group>"; };
@@ -86,9 +86,9 @@
 		D5F7AB27D7E921F65122D7264D05B192 /* Pods-MagtonicMobileReportTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicMobileReportTests-Info.plist"; sourceTree = "<group>"; };
 		DB4EA8B35B18EADFD74A8C463769A6FF /* Pods-MagtonicMobileReportUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagtonicMobileReportUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DFF0EB2D50FB28DE496A5A9AA1D0F03E /* Pods-MagtonicMobileReportUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagtonicMobileReportUITests-dummy.m"; sourceTree = "<group>"; };
-		EA79A9EC13E74C8CA5C58211ED6F98DC /* Pods_MagtonicMobileReportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicMobileReportTests.framework; path = "Pods-MagtonicMobileReportTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA79A9EC13E74C8CA5C58211ED6F98DC /* Pods_MagtonicMobileReportTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicMobileReportTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEC8F0FEB34097379CDE63F6E8E7AC8 /* Pods-MagtonicMobileReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicMobileReport.debug.xcconfig"; sourceTree = "<group>"; };
-		EF45E188A18133EB7049D19C304C8F36 /* Pods_MagtonicMobileReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagtonicMobileReport.framework; path = "Pods-MagtonicMobileReport.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF45E188A18133EB7049D19C304C8F36 /* Pods_MagtonicMobileReport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagtonicMobileReport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C44BA33967DF657473158798FD1C97 /* Pods-MagtonicMobileReportUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagtonicMobileReportUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F7D27E35E943489F26A81218A885ECAF /* Pods-MagtonicMobileReport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagtonicMobileReport.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -233,7 +233,6 @@
 				C9B1D126EF53F9F8B58AA8AC93939B6E /* PresentMenuAnimator.swift */,
 				E7B19FC3C0BD662193945DEE594FD359 /* Support Files */,
 			);
-			name = NavigationDrawer;
 			path = NavigationDrawer;
 			sourceTree = "<group>";
 		};
@@ -381,14 +380,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1130;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = AF9D725F805D746DDE8EC3F8589A06E3 /* Products */;
@@ -610,6 +610,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -786,6 +787,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
