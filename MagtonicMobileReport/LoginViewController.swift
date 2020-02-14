@@ -50,7 +50,7 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
         let imgWidth = width
         let imgHeight = imgWidth/4
         
-        let statusBarHeight = UIApplication.shared.statusBarFrame.size.height
+        let statusBarHeight = view.window?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0 //UIApplication.shared.statusBarFrame.size.height
         print("statusBarHeight = \(statusBarHeight)")
         
         imgLogo.frame = CGRect(x: 0, y: statusBarHeight , width: imgWidth, height: imgHeight)
@@ -141,7 +141,7 @@ class LoginViewController: UIViewController, XMLParserDelegate, URLSessionDelega
         container!.addSubview(activityLabel!)
         
         
-        activityIndicator = UIActivityIndicatorView.init(style: UIActivityIndicatorView.Style.whiteLarge)
+        activityIndicator = UIActivityIndicatorView.init(style: UIActivityIndicatorView.Style.large)
         container?.addSubview(activityIndicator!)
         activityIndicator?.frame = CGRect.init(x: self.view.frame.size.width/2 - 40, y: 10, width: 30, height: 30)
         activityIndicator?.hidesWhenStopped = true
